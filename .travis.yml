@@ -6,10 +6,11 @@ python:
 script:
   - python helloworld.py
 
-setup appfog
+#setup appfog
 
 deploy:
   provider: appfog
+  skip-cleanup: true
   email: puram.suresh@gmail.com
   password: travis123
   app: app.html

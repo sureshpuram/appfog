@@ -3,5 +3,5 @@ deploy:
   skip-cleanup: true
   api_key:
     secure: "eIlyFhQWuPwK3-Vbr_yYfg"
-  on 
-  master:app.html
+  on:
+  branch: master

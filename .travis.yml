@@ -1,10 +1,3 @@
-language: python
-python:
-  - 2.7
-script:
-  - python helloworld.py
-#setup appfog
-#before_deploy: "echo 'ready?'"
 deploy:
   provider: appfog
   skip-cleanup: true

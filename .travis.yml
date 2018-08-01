@@ -1,10 +1,12 @@
-$travis setup appfog
+
 
 language: python
 python:
   - 2.7
 script:
   - python helloworld.py
+
+setup appfog
 
 deploy:
   provider: appfog

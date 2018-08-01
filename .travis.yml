@@ -11,8 +11,8 @@ before_deploy: "echo 'ready?'"
 deploy:
   provider: appfog
   skip-cleanup: true
-  email: puram.suresh@gmail.com
-  password: travis123
+  api_key:
+    secure: "eIlyFhQWuPwK3-Vbr_yYfg"
   app: 
   master:app.html
-after_deploy: "echo 'completed'"
+

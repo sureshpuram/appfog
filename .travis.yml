@@ -1,1 +1,12 @@
-print("Hello World")
+language: python
+
+python:
+  - 2.7
+script:
+  - python helloworld.py
+
+deploy:
+  provider: appfog
+  email: puram.suresh@gmail.com
+  password: travis123
+  app: app.html

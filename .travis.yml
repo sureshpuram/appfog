@@ -1,7 +1,7 @@
 deploy:
-  provider: appfog
+  provider: pages
   skip-cleanup: true
   api_key:
     secure: "eIlyFhQWuPwK3-Vbr_yYfg"
-  app: 
+  on 
   master:app.html
